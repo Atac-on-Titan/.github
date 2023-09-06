@@ -12,3 +12,4 @@ The project data can be downloaded from an AWS S3 bucket:
 - [trip updates](https://statistical-learning.s3.amazonaws.com/trip-updates.feather) a feather dataframe with live data about trips and routes in the ATAC network, scraped from the Roma Open Data portal.
 - [vehicle positions](https://statistical-learning.s3.amazonaws.com/vehicle-positions.feather) a feather dataframe live data about ATAC vehicle positions, scraped at the same time as the trip updates from the Roma Open Data portal.
 - [weather data](https://statistical-learning.s3.amazonaws.com/weather_df.feather) a feather dataframe with hourly weather data for the city of Rome, matching the times of the trip updates and vehicle positions.
+- [static data](https://statistical-learning.s3.amazonaws.com/rome_static_gtfs_test.zip) a `.zip` archive with static ATAC data about stops, routes, etc.
