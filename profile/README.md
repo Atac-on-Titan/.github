@@ -9,6 +9,7 @@ The final project spans multiple repositories:
 ### Project Data
 The project data can be downloaded from an AWS S3 bucket:
 
+- [final preprocessed feather dataframe](https://statistical-learning.s3.amazonaws.com/trip_live_final.feather)
 - [trip updates](https://statistical-learning.s3.amazonaws.com/trip-updates.feather) a feather dataframe with live data about trips and routes in the ATAC network, scraped from the Roma Open Data portal.
 - [vehicle positions](https://statistical-learning.s3.amazonaws.com/vehicle-positions.feather) a feather dataframe live data about ATAC vehicle positions, scraped at the same time as the trip updates from the Roma Open Data portal.
 - [weather data](https://statistical-learning.s3.amazonaws.com/weather_df.feather) a feather dataframe with hourly weather data for the city of Rome, matching the times of the trip updates and vehicle positions.
